@@ -1,0 +1,180 @@
+
+.box {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    height: 160px;
+    }
+    .home_top {
+    position: relative;
+    width: 100%;
+    height: 160px;
+    display: flex;
+    padding-top: 40px;
+    padding-left: 20px;
+    color: #fff;
+    }
+    .home_top .img {
+    margin-left: 20px;
+    height: 60px;
+    width: 60px;
+    margin-right: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    }
+    .home_top .img img {
+        width: 60px;
+    }
+    .home_top .statusLogin {
+    flex: 70%;
+    }
+    .home_top .statusLogin h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    }
+    .home_top .statusLogin span {
+    font-size: 14px;
+    }
+    .home_top:after {
+    width: 140%;
+    height: 160px;
+    position: absolute;
+    left: -20%;
+    top: 0;
+    z-index: -1;
+    content: "";
+    border-radius: 0 0 50% 50%;
+    background: linear-gradient(to right, #f78b83, #f06351);
+    }
+    .serve {padding: 10px;}
+    .serve h2 {
+    font-size: 20px;
+    margin: 20px 0;
+    }
+    .serve .item {
+    display: flex;
+    font-size: 18px;
+    flex-direction: column;
+    }
+    .serve .item .top,
+    .serve .item .bottom {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    }
+    .serve .item .top .red,
+    .serve .item .bottom .red {
+    color: #f85252;
+    }
+    .ori {
+    color: rgb(245, 138, 99);
+    }
+    .gre {
+    color: green;
+    }
+    .pin {
+    color: rgb(182, 98, 140);
+    }
+    .imgItem {
+    height: 80px;
+    line-height: 80px;
+    width: 48%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(248, 244, 244);
+    border-radius: 6px;
+    }
+    .imgItem span {
+    margin-left: 20px;
+    }
+    .imgItem img {
+    height: 50px;
+    margin-right: 6px;
+    }
+    .imgItem .fir {
+    width: 50px;
+    }
+    .banner {
+    margin-top: 20px;
+    display: flex;
+    height: 100px;
+    padding: 20px 20px;
+    border-radius: 6px;
+    justify-content: space-between;
+    background-color: #f85252;
+    }
+    .banner .bnItem {
+    height: 80px;
+    }
+    .banner .bnItem .top {
+    color: #fff;
+    font-size: 18px;
+    }
+    .banner .bnItem .bottom {
+    font-size: 14px;
+    color: rgb(230, 220, 220);
+    margin-top: 14px;
+    }
+    .banner .buy {
+    margin-top: 24px;
+    font-size: 14px;
+    background-color: #fff;
+    height: 30px;
+    width: 100px;
+    line-height: 30px;
+    color: #f85252;
+    border-radius: 14px;
+    position: relative;
+    }
+    .banner .buy span {
+    margin-left: 14px;
+    }
+    .banner .buy .icon {
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 30px;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 10px solid #f85252;
+    transform: translateY(-20px);
+    margin-left: 6px;
+    }
+    .footer {
+    margin: 0 auto;
+    border-top: 1px solid #ccc;
+    color: rgb(151, 148, 148);
+    width: 260px;
+    margin-top: 40px;
+    font-size: 14px;
+    position: relative;
+    }
+    .footer div {
+    position: absolute;
+    top: -18px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #fff;
+    padding: 0 2px;
+    }
+    .footer span {
+    font-size: 20px;
+    }
+    .hotline {
+    display: flex;
+    justify-content: center;
+    margin-top: 14px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    }
+    .hotline  .phone {
+    color: #f85252;
+    margin-right: 6px;
+    margin-top: 2px;
+    }
+    .hotline img {
+    height: 12px;
+    transform: translateY(4px);
+    margin-right: 4px;
+    }

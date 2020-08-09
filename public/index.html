@@ -39,5 +39,14 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script>
+      // console.log(window.location)
+      const url =  window.location.href
+      // window.location.href = window.location.origin + pathname
+      if(!url.endsWith('.html')) {
+        const pathname = '/index.html'
+        window.location.href = window.location.origin + pathname
+      }
+    </script>
   </body>
 </html>

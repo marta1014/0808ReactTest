@@ -1,0 +1,31 @@
+.oldCarIndex {
+    padding: 20px;
+}
+.img img {
+    width: 100%;
+}
+.oldCarIndex .btn {
+    display: flex;
+    justify-content: space-between;
+}
+.oldCarIndex .btn div {
+    margin-top: 20px;
+    width: 45%;
+    line-height: 44px;
+    text-align: center;
+    border-radius: 6px;
+    border: 1px solid #000;
+    }
+.oldCarIndex .next {
+    width: 100%;
+    line-height: 44px;
+    margin-top: 60px;
+    border-radius: 6px;
+    background-color: #EC5353;
+    color: honeydew;
+    font-size: 16px;
+    text-align: center;
+    }
+.ccc {
+    border: 1px solid #000;
+}
